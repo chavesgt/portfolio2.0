@@ -10,7 +10,7 @@
 
 html,body {
     width: 100vw;
-    background: url('../Imagens/background1.jpg');
+    background: url('../Imagens/background6.jpg');
     background-size: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ header {
     margin-bottom: 10px;
 }
 
-header > h1 {
+#titulos > h1 {
     background-color: rgba(255, 255, 255, 0.89);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 2.5em;
@@ -105,6 +105,7 @@ h1, h2 , h3 {
     padding: 30px;
     margin: auto;
     text-align: center;
+    margin-top: 10px;
 }
 
 #contatos > h2 {
@@ -122,6 +123,10 @@ h1, h2 , h3 {
     line-height: 2em;
 }
 
+#diplomas {
+    margin-top: 15px;
+}
+
 #certificacoes > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
@@ -129,6 +134,7 @@ h1, h2 , h3 {
     font-size: 18px;
     text-align: center;
     padding: 25px;
+    
 }
 
 #carouselExampleAutoplaying {
@@ -167,6 +173,10 @@ h1, h2 , h3 {
 #logostec {
     text-align: center;
     margin: 20px;
+}
+
+#projetos {
+    margin-top: 15px;
 }
 
 #videos > video {
