@@ -29,14 +29,6 @@
         width: 100%;
     }
 
-    header {
-        padding: 50px;
-        width: 70vw;
-        display: block;
-        margin: auto;
-        margin-top: 80px;
-    }
-
     menu > ul > li > a {
         text-align: center;
         border-radius: 10px;
@@ -45,7 +37,80 @@
         background-color: azure;
     }
 
+    header {
+        padding: 50px;
+        width: 70vw;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #titulos > h1 {
+        display: block;
+        border-bottom: 10px;
+    }
+
+    #inicio {
+        background: url('../Imagens/backgroundcabecalho1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        
+        width: 60vw;
+        padding: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #mcontatos {
+        width: 70vw;
+        padding: 40px;
+    }
+
+    #contatos > h2 {
+        font-size: 22px;
+    }
+
     #aprendizado {
         padding: 50px;
+    }
+
+    #projetos{
+        width: 60vw;
+    }
+
+
+    #desc {
+        margin-top: 60px;
+        width: 60vw;
+    }
+
+    #mgraduacao {
+        width: 60vw;
+    }
+
+    #mobjetivos {
+        margin-top: 60px;
+        width: 60vw;
+    }
+
+    #diplomas {
+        width: 60vw;
+    }
+
+    #mfinal {
+        width: 60vw;
+        margin-top: 60px;
+    }
+
+    footer {
+        background-color: rgba(255, 255, 255, 0.842);;
+        margin: auto;
+        border-radius: 15px;
+        padding: 5px;
+        width: 40vw;
+        text-align: center;
     }
 }
