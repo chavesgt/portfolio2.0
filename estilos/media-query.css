@@ -93,6 +93,18 @@
         width: 60vw;
     }
 
+    #skills > ul > li {
+        font-size: 22px;
+        line-height: 2.5em;
+        text-align: center;
+    }
+    
+    #skills > ul {
+        padding: 5px;
+        margin: 25px;
+        columns: 3;
+    }
+
     #mobjetivos {
         margin-top: 60px;
         width: 60vw;

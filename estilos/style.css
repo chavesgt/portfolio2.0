@@ -161,12 +161,19 @@ h1, h2 , h3 {
 }
 
 
-#skills > p {
-    line-height: 2.5em;
-    font-size: 20px;
-    margin: 10px;
-    padding: 25px;
+
+#skills > ul > li {
+    list-style-type: '\2714\00A0\00A0';
+    font-size: 15px;
     text-align: center;
+    line-height: 2em;
+}
+
+#skills > ul {
+    list-style-position: inside;
+    columns: 2;
+    padding: 5px;
+    margin: 10px;
 }
 
 #aprendizado > ul {
