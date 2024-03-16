@@ -76,7 +76,18 @@
     }
 
     #aprendizado {
-        padding: 50px;
+        padding: 5px;
+    }
+
+
+    #aprendizado > ul {
+        columns: 3;
+        margin: auto;
+    }
+
+    #aprendizado > ul > li {
+        font-size: 18px;
+        text-align: center;
     }
 
     #projetos{
