@@ -149,11 +149,12 @@ h1, h2 , h3 {
     
 }
 
-#carouselExampleAutoplaying {
+#carouselExampleAutoplaying{
     margin: auto;
     display: block;
     padding: 30px;
 }
+
 
 #graduacao {
     list-style-type: '\2714\00A0\00A0';
