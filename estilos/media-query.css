@@ -11,6 +11,7 @@
 
     menu > ul > li {
         display: inline-block;
+        margin: 2px;
     }
 
     main {
@@ -31,20 +32,21 @@
 
     menu > ul > li > a {
         text-align: center;
-        border-radius: 10px;
-        margin: 10px;
+        border-radius: 20px;
+        margin: 5px;
         margin-left: 65px;
-        margin-right: 25px;
-        padding: 10px;
+        padding: 15px;
         background-color: azure;
     }
 
     header {
-        padding: 10px;
-        width: 75vw;
+        padding: 5px;
+        width: 60vw;
         display: block;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 15px;
     }
 
     #titulos > h1 {
@@ -67,7 +69,7 @@
     }
 
     #mcontatos {
-        width: 70vw;
+        width: 60vw;
         padding: 40px;
     }
 

@@ -33,6 +33,10 @@ p {
     text-indent: 30px;
 }
 
+#habilidades {
+    text-indent: 0px;
+}
+
 menu {
     display: none;
 }
@@ -41,6 +45,7 @@ menu > ul {
     list-style: none; 
     padding: 0px;
     margin: 10px;
+    
 }
 
 menu > ul > li > a{
@@ -73,8 +78,7 @@ menu > ul > li > a:hover {
 header {
     background-color: rgba(128, 128, 128, 0.733);
     background-size: cover;
-    padding: 40px;
-    margin-bottom: 10px;
+    margin: 5px;
     text-align: center;
 }
 
@@ -166,22 +170,6 @@ h1, h2 , h3 {
     margin: 10px;
 }
 
-
-
-#skills > ul > li {
-    list-style-type: '\2714\00A0\00A0';
-    font-size: 15px;
-    text-align: center;
-    line-height: 2em;
-}
-
-#skills > ul {
-    list-style-position: inside;
-    columns: 2;
-    padding: 5px;
-    margin: 10px;
-}
-
 #aprendizado {
     padding: 5px;
     margin-bottom: 5px;
@@ -213,17 +201,10 @@ h1, h2 , h3 {
 
 #videos > video {
     display: block;
-    padding: 10px;
-    width: 100%;
+    width: 30vw;
+    margin: auto;
 }
 
-#final {
-    text-align: justify;
-    font-size: 20px;
-    line-height: 2em;
-    margin: 15px;
-    padding: 15px;
-}
 
 footer {
     text-align: center;
