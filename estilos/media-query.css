@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*CSS para pc e telas específicas*/
 @media screen and (min-width: 768px) {
     span#burguer {
         display: none;
@@ -17,6 +17,7 @@
     main {
         width: 768px;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -52,12 +53,17 @@
     #titulos > h1 {
         display: block;
         border-bottom: 10px;
+        font-size: 2.5em;
+        padding: 10px;
     }
 
     #inicio {
         background: url('../Imagens/backgroundcabecalho1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        width: 60vw;
+        padding: 50px;
+        margin-bottom: 50px;
     }
 
     main {
@@ -96,6 +102,12 @@
         width: 60vw;
     }
 
+    #videos > video {
+        display: block;
+        width: 30vw;
+        margin: auto;
+    }
+    
 
     #desc {
         margin-top: 60px;

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*CSS geral para celular*/
 *{
     padding: 0px;
     margin: 0px;
@@ -67,12 +67,18 @@ menu > ul > li > a:hover {
     background-color: green;
 }
 
+#inicio{
+    background: url('../Imagens/backgroundcabecalho1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90vw;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 45px;
+}
 #foto{
     display: block;
-    margin: auto;
     text-align: center;
-    margin-top: 15px;
-    padding:10px;
 }
 
 header {
@@ -85,12 +91,13 @@ header {
 #titulos > h1 {
     background-color: rgba(255, 255, 255, 0.89);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    font-size: 2.5em;
+    font-size: 1.2em;
     text-align: center;
-    padding: 17px;
-    margin: 10px;
+    margin-top: 12px;
+    padding: 20px;
+    display: block;
     border-radius: 15px;
-    border-bottom: 8px solid black;   
+    border-bottom: 8px solid black;  
 }
 
 main {
@@ -197,11 +204,12 @@ h1, h2 , h3 {
 
 #projetos {
     margin-top: 15px;
+    width: 90vw;
 }
 
 #videos > video {
     display: block;
-    width: 30vw;
+    width: 85vw;
     margin: auto;
 }
 
