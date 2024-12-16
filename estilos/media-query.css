@@ -32,46 +32,39 @@
     }
 
     menu > ul > li > a {
-        text-align: center;
         border-radius: 20px;
-        margin: 5px;
-        margin-left: 65px;
-        padding: 15px;
+        padding: 20px;
         background-color: azure;
     }
 
     header {
         padding: 5px;
-        width: 60vw;
+        width: 90vw;
         display: block;
         margin: auto;
         margin-top: 30px;
-        margin-bottom: 30px;
-        border-radius: 15px;
+        border-radius: 20px;
     }
 
     #titulos > h1 {
         display: block;
         border-bottom: 10px;
-        font-size: 2.5em;
-        padding: 10px;
+        font-size: 2em;
+        margin: 18px;
     }
 
     #inicio {
         background: url('../Imagens/backgroundcabecalho1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        width: 60vw;
-        padding: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
+        display: block;
+        width: 90vw;
     }
 
-    main {
-        
-        width: 60vw;
-        padding: 40px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+    #foto{
+       display: block;
+       text-align: center;
     }
 
     #mcontatos {
